@@ -41,7 +41,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="index.html"><img class="shr-logo" src="images/logo/logo.png" alt="">
+                    <a class="navbar-brand page-scroll" href="index.html"><img class="shr-logo" src="images/logo/logo.bmp" alt="">
                     </a>
                 </div>
 
@@ -110,25 +110,25 @@
                         WELCOME TO <span>APEX</span>
                         <span class="shr-round"></span>
                     </h2>
-                    <p class="shr-sub-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <p class="shr-sub-title">Создаем по-настоящему эффективные сайты: внедряем актуальные IT-разработки, уделяем максимум внимания дизайну и юзабилити.</p>
                 </div>
             </div>
             <div class="row animatedParent animateOnce">
                 <div class="col-md-6 col-sm-6">
                     <div class="shr-welcome-content animated fadeInLeftShort slow delay-250">
                         <i class="fa fa-envira" aria-hidden="true"></i>
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua.</p>
+                        <h4>WEB-дизайн</h4>
+                        <p>Мы осуществляем разработку и создание всех видов сайтов – от «визитки» до мощного многофункционального портала. Наши специалисты проконсультируют вас и помогут определиться с выбором.</p>
                     </div>
                     <div class="shr-welcome-content animated fadeInLeftShort slow delay-500">
                         <i class="fa fa-sign-language" aria-hidden="true"></i>
-                        <h4>Responsive</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua.</p>
+                        <h4>Программирование</h4>
+                        <p>Приоритетной задачей при программировании сайта является автоматизация функционала, не требующего участия администратора сайта, с целью сэкономить время и силы владельца ресурса.</p>
                     </div>
                     <div class="shr-welcome-content animated fadeInLeftShort slow delay-750">
                         <i class="fa fa-television" aria-hidden="true"></i>
-                        <h4>Clean Design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua.</p>
+                        <h4>SEO-продвижение</h4>
+                        <p>Чтобы вывести сайт в топ необходима качественная внутренняя и внешняя оптимизация. Вот почему SEO-продвижение - это комплексная услуга, включающая в себя сразу несколько этапов работы.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 animated fadeInUpShort slow delay-250">
@@ -155,13 +155,23 @@
                 <div class="col-md-4">
                     <div class="shr-left-features-text animated fadeInLeftShort slow delay-250">
                         <i class="fa fa-bell-o" aria-hidden="true"></i>
-                        <h4>Creative Design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, vulputate at justo tristique.Lorem Ipsum is simply dummy text</p>
+                        <h4>Маркетинговый анализ</h4>
+                        <p>Мы анализируем целевую аудиторию, вашу нишу, и конкурентов. На основе этого подбирается шаблон и составляются ТЗ для подготовки контента.</p>
+                    </div>
+                    <div class="shr-left-features-text animated fadeInLeftShort slow delay-250">
+                        <i class="fa fa-bell-o" aria-hidden="true"></i>
+                        <h4>Подготовка эффективного контента</h4>
+                        <p>Мы разработаем эффективный оффер, проработаем заголовки и тексты, отработаем возражения и представим ваш товар или услугу в выгодном свете.</p>
                     </div>
                     <div class="shr-left-features-text animated fadeInLeftShort slow delay-500">
                         <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                        <h4>Fully Responsive</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, vulputate at justo tristique.Lorem Ipsum is simply dummy text </p>
+                        <h4>Подготовка макета</h4>
+                        <p>Подготовим уникальный дизайн, на основе ваших пожеланий или подберем подходящий шаблонный дизайн, адаптировав его под задачи вашего бизнеса.</p>
+                    </div>
+                    <div class="shr-left-features-text animated fadeInLeftShort slow delay-500">
+                        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                        <h4>SEO-продвижение</h4>
+                        <p>Проведем аудит сайта, спроектируем посадочные страницы, создадим полезный контент и повысим доверие.Выведем сайт на лидирующие позиции в поиские.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -172,13 +182,23 @@
                 <div class="col-md-4">
                     <div class="shr-right-features-text animated fadeInRightShort slow delay-250">
                         <i class="fa fa-diamond" aria-hidden="true"></i>
-                        <h4>User Friendly</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, vulputate at justo tristique.Lorem Ipsum is simply dummy text </p>
+                        <h4>Верстка</h4>
+                        <p>Переносим согласованный дизайн в HTML-код.</p>
                     </div>
                     <div class="shr-right-features-text animated fadeInRightShort slow delay-500">
                         <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                        <h4>Pure & Simple</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, vulputate at justo tristique.Lorem Ipsum is simply dummy text </p>
+                        <h4>Программирование</h4>
+                        <p>Сложные проекты зачастую требуют нетривиальных программных решений. Фильтры, брошенные корзины, выгрузка в Яндекс.Маркет, почтовые рассылки, работа с внешними приложениями, подключение сторонних библиотек, регистрация через соц.сети, калькуляторы, мультилендинги и много другое.</p>
+                    </div>
+                    <div class="shr-right-features-text animated fadeInRightShort slow delay-500">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        <h4>Тестирование</h4>
+                        <p>Проверяется скорость, валидность верстки, корректность отображения на разных устройствах, отказоустойчивость при нагрузках и прочие элементы.</p>
+                    </div>
+                    <div class="shr-right-features-text animated fadeInLeftShort slow delay-500">
+                        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                        <h4>Контекстная реклама</h4>
+                        <p>Продвигаем профили на Яндекс.Услугах и в других сервисах Яндекса. Только белое SEO и долговременные результаты. Предлагаем услуги гиперлокального продвижения, регионального и глобального SEO.</p>
                     </div>
                 </div>
             </div>
@@ -192,10 +212,10 @@
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h2 class="shr-section-title">
-                        PRICING <span>TABLE</span>
+                        Пакеты <span>"Разработка сайта"</span>
                         <span class="shr-round"></span>
                     </h2>
-                    <p class="shr-sub-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <p class="shr-sub-title">Наша компания давно и успешно специализируется на разработке и создании сайтов. Если сложить вместе все годы работы каждого специалиста SeoSite.by в этой области, то получится опыт длиною в несколько десятилетий.</p>
                 </div>
             </div>
             <div class="row animatedParent animateOnce">
@@ -203,18 +223,19 @@
                     <div class="shr-table-col animated fadeInLeftShort slow delay-250">
                         <div class="shr-table-heading">
                             <i class="fa fa-briefcase" aria-hidden="true"></i>
-                            <h2>BASIC</h2>
+                            <h2>Сайт на готовом шаблоне</h2>
+                            <h2> OpenCart, WordPress, Joomla<h2>
                         </div>
-                        <h1>$19<span>/M</span></h1>
+                        <h1>от 10 <span>рабочих дней</span></h1>
                         <ul class="list-group">
-                            <li class="list-group-item">1 GB Space</li>
-                            <li class="list-group-item">10 GB Bandwidth</li>
-                            <li class="list-group-item">10 Portfolio Items</li>
-                            <li class="list-group-item">Woo-commerce Support</li>
-                            <li class="list-group-item">Integration with Wordpress</li>
+                            <li class="list-group-item">Сайты-визитки и корпоративные сайты на бесплатных CMS:</li>
+                            <li class="list-group-item">Удобная и современная админка</li>
+                            <li class="list-group-item">До 20 страниц</li>
+                            <li class="list-group-item">Адаптивная верстка</li>
+                          
                         </ul>
                         <div class="shr-table-footer">
-                            <a href="#">ORDER NOW</a>
+                            <a href="#">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -222,18 +243,19 @@
                     <div class="shr-table-col animated fadeInUpShort slow">
                         <div class="shr-table-heading">
                             <i class="fa fa-briefcase" aria-hidden="true"></i>
-                            <h2>ADVANCED</h2>
+                            <h2>Сайт с индивидуальным дизайном</h2>
+                            <h2>OpenCart, WordPress, Joomla, Bitrix</h2>
                         </div>
-                        <h1>$33<span>/M</span></h1>
+                        <h1>от 14 <span>рабочих дней</span></h1>
                         <ul class="list-group">
-                            <li class="list-group-item">1 GB Space</li>
-                            <li class="list-group-item">10 GB Bandwidth</li>
-                            <li class="list-group-item">10 Portfolio Items</li>
-                            <li class="list-group-item">Woo-commerce Support</li>
-                            <li class="list-group-item">Integration with Wordpress</li>
+                            <li class="list-group-item">Сайты-визитки и корпоративные сайты на любых CMS:</li>
+                            <li class="list-group-item">Индивидуальный дизайн, согласование и отрисовка</li>
+                            <li class="list-group-item">До 15 страниц</li>
+                            <li class="list-group-item">Адаптивная верстка</li>
+                            <li class="list-group-item">Обучение администрированию</li>
                         </ul>
                         <div class="shr-table-footer">
-                            <a href="#">ORDER NOW</a>
+                            <a href="#">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -241,22 +263,26 @@
                     <div class="shr-table-col animated fadeInRightShort slow delay-250">
                         <div class="shr-table-heading">
                             <i class="fa fa-briefcase" aria-hidden="true"></i>
-                            <h2>PREMIUM</h2>
+                            <h2>Интернет-магазин</h2>
+                            <h2>WordPress, Joomla, Bitrix, Shop-Script</h2>
                         </div>
-                        <h1>$44<span>/M</span></h1>
+                        <h1>от 20 <span>рабочих дней</span></h1>
                         <ul class="list-group">
-                            <li class="list-group-item">1 GB Space</li>
-                            <li class="list-group-item">10 GB Bandwidth</li>
-                            <li class="list-group-item">10 Portfolio Items</li>
-                            <li class="list-group-item">Woo-commerce Support</li>
-                            <li class="list-group-item">Integration with Wordpress</li>
+                            <li class="list-group-item">Функциональные и надежные решения для интернет маркетинга</li>
+                            <li class="list-group-item">Разработка структуры сайта под дальнейшее продвижение</li>
+                            <li class="list-group-item">Анализ конкурентов</li>
+                            <li class="list-group-item">Структура сайта</li>
+                            <li class="list-group-item">Яркий дизайн и индивидуальный функционал</li>
+                            <li class="list-group-item">Подключение платежных систем</li>
+                            <li class="list-group-item">Интеграция с 1C</li>
+                            <li class="list-group-item">Программирование 15 часов</li>
                         </ul>
                         <div class="shr-table-footer">
-                            <a href="#">ORDER NOW</a>
+                            <a href="#">Заказать</a>
                         </div>
                     </div>
                 </div>
-            </div>
+                            </div>
         </div>
     </section>
     <!-- pricing table end -->
