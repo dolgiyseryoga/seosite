@@ -59,7 +59,7 @@
                             <a class="page-scroll cmn-t-underline" href="#describe">Продвижение</a>
                         </li>
                         <li>
-                            <a class="page-scroll cmn-t-underline" href="#team">Услуги</a>
+                            <a class="page-scroll cmn-t-underline" href="#team">Портфолио</a>
                         </li>
                         <li>
                             <a class="page-scroll cmn-t-underline" href="#news">Новости</a>
@@ -107,7 +107,7 @@
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h2 class="shr-section-title">
-                        WELCOME TO <span>APEX</span>
+                        Добро пожаловать на <span>SeoSite.by</span>
                         <span class="shr-round"></span>
                     </h2>
                     <p class="shr-sub-title">Создаем по-настоящему эффективные сайты: внедряем актуальные IT-разработки, уделяем максимум внимания дизайну и юзабилити.</p>
@@ -145,10 +145,9 @@
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h2 class="shr-section-title">
-                        Amazing <span>Features</span>
+                        Разработка и <span>Продвижение </span>
                         <span class="shr-round"></span>
                     </h2>
-                    <p class="shr-sub-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                 </div>
             </div>
             <div class="row animatedParent animateOnce">
@@ -232,7 +231,7 @@
                             <li class="list-group-item">Удобная и современная админка</li>
                             <li class="list-group-item">До 20 страниц</li>
                             <li class="list-group-item">Адаптивная верстка</li>
-                          
+
                         </ul>
                         <div class="shr-table-footer">
                             <a href="#">Заказать</a>
@@ -282,7 +281,7 @@
                         </div>
                     </div>
                 </div>
-                            </div>
+            </div>
         </div>
     </section>
     <!-- pricing table end -->
@@ -295,9 +294,8 @@
             <div class="row animatedParent animateOnce">
                 <div class="col-sm-6">
                     <div class="shr-discribe-col">
-                        <h1>Great Way To <span class="shr-color">Describe</span> Your App</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h1>SEO-продвижение <span class="shr-color">Увеличим количество заявок с поиска</span></h1>
+                        <p>Чтобы получить хорошие позиции в поисковых системах, сайт должен удовлетворять большому количеству параметров. Необходимо улучшать коммерческие факторы сайта, создавать дополнительные страницы и блоки контента, исправлять технические ошибки. В работе мы используем только "белые" методы продвижения, поэтому не обещаем попадание в топ-10 в определенные сроки. Мы гарантируем стабильный рост трафика и позиций в долгосрочной перспективе.</p>
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -311,16 +309,98 @@
     <!-- describe end -->
 
 
+    <!-- pricing table start2 -->
+    <section class="shr-pricing-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="shr-section-title">
+                        Пакеты <span>"Продвижение сайта"</span>
+                        <span class="shr-round"></span>
+                    </h2>
+                    <p class="shr-sub-title">Заказав продвижение в «SeoSite.by», Вы получите комплексное развитие сайта, ориентированное на цели и задачи Вашего бизнеса.</p>
+                </div>
+            </div>
+            <div class="row animatedParent animateOnce">
+                <div class="col-lg-4">
+                    <div class="shr-table-col animated fadeInLeftShort slow delay-250">
+                        <div class="shr-table-heading">
+                            <i class="fa fa-briefcase" aria-hidden="true"></i>
+                            <h2>Тариф "Лайт"</h2>
+                        </div>
+                        <h1>от 10 <span>рабочих дней</span></h1>
+                        <ul class="list-group">
+                            <li class="list-group-item">Продвижение корпоративного сайта, состоящего из 10-20-30 страниц или небольшого интернет-магазина.</li>
+                            <li class="list-group-item">выполнение аудита;</li>
+                            <li class="list-group-item">добавление дополнительных посадочных страниц под важные запросы компании;</li>
+                            <li class="list-group-item">составление семантического ядра;</li>
+                            <li class="list-group-item">заполнение мета-тегов;</li>
+                            <li class="list-group-item">исправление технических ошибок;</li>
+                            <li class="list-group-item">анализ коммерческих факторов и т.д.</li>
+                        </ul>
+                        <div class="shr-table-footer">
+                            <a href="#">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="shr-table-col animated fadeInUpShort slow">
+                        <div class="shr-table-heading">
+                            <i class="fa fa-briefcase" aria-hidden="true"></i>
+                            <h2>Тариф "Медиум"</h2>
+                        </div>
+                        <h1>от 14 <span>рабочих дней</span></h1>
+                        <ul class="list-group">
+                            <li class="list-group-item">Продвижение интернет-магазина, состоящего из сотен страниц и тысяч товаров.</li>
+                            <li class="list-group-item">применяются технологии, подобные для продвижения корпоративного сайта;</li>
+                            <li class="list-group-item">выделяем несколько наиболее приоритетных категорий товара и начинаем работу именно с них;</li>
+                            <li class="list-group-item">нарастающим итогом двигаемся по оставшимся категориям, параллельно осуществляя мониторинг и поддержку уже продвинутых категорий;</li>
+                            <li class="list-group-item">закупка внешних ссылок, которые влияют на продвижение;</li>
+                        </ul>
+                        <div class="shr-table-footer">
+                            <a href="#">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="shr-table-col animated fadeInRightShort slow delay-250">
+                        <div class="shr-table-heading">
+                            <i class="fa fa-briefcase" aria-hidden="true"></i>
+                            <h2>Тариф "VIP"</h2>
+                        </div>
+                        <h1>от 20 <span>рабочих дней</span></h1>
+                        <ul class="list-group">
+                            <li class="list-group-item">Продвижение VIP. Работа SEO-специалиста 2Х</li>
+                            <li class="list-group-item">Внутренняя и внешняя оптимизация</li>
+                            <li class="list-group-item">Поведенческие факторы ранжирования</li>
+                            <li class="list-group-item">Коммерческие факторы ранжирования</li>
+                            <li class="list-group-item">Контекстная реклама</li>
+                            <li class="list-group-item">Продвижение в Google и Яндекс</li>
+                            <li class="list-group-item">
+                                <span style="color:red"><strong>Дарим 100 р. на Контекстную рекламу!<strong></span>
+                            </li>
+
+                        </ul>
+                        <div class="shr-table-footer">
+                            <a href="#">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pricing table end -->
+
     <!-- team start -->
     <section class="shr-team-area" id="team">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h2 class="shr-section-title">
-                        TEAM <span>MEMBER</span>
+                        Наши <span>Клиенты</span>
                         <span class="shr-round"></span>
                     </h2>
-                    <p class="shr-sub-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <p class="shr-sub-title">Ещё до учебы сделал пару работающих сайтов )) </p>
                 </div>
             </div>
             <div class="row animatedParent animateOnce">
@@ -328,92 +408,45 @@
                     <div class="shr-team-col animated fadeInUpShort slow delay-250">
                         <!-- hover -->
                         <div class="ih-item square effect6 from_top_and_bottom">
-                            <a href="#">
+                            <a href="https://juliabevz.com.au/">
                                 <div class="img">
                                     <img src="images/team/01.jpg" alt="img">
                                 </div>
                                 <div class="info">
-                                    <h3>Mack Line</h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                    <h3>Julia Bevz<br>juliabevz.com.au</h3>
+                                    <p>Photographer from Melbourne</p>
                                 </div>
                             </a>
                         </div>
-                        <!-- end hover -->
+                        <!-- end hover
                         <div class="shr-social-link text-center">
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/juliabevzphoto"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="shr-team-col animated fadeInUpShort slow delay-500">
                         <!-- hover -->
                         <div class="ih-item square effect6 from_top_and_bottom">
-                            <a href="#">
+                            <a href="https://jujutsubelarus.by/">
                                 <div class="img">
-                                    <img src="images/team/02.jpg" alt="img">
+                                    <img src="/images/team/02.png" alt="img">
                                 </div>
                                 <div class="info">
-                                    <h3>Jeson Roy</h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                    <h3>Школа Джиу-джитсу.Беларусь<br>jujutsubelarus.by</h3>
+                                    <p>Школа Джиу-джитсу в г. Новополоцк</p>
                                 </div>
                             </a>
                         </div>
-                        <!-- end hover -->
+                        <!-- end hover
                         <div class="shr-social-link text-center">
                             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="shr-team-col animated fadeInUpShort slow delay-750">
-                        <!-- hover -->
-                        <div class="ih-item square effect6 from_top_and_bottom">
-                            <a href="#">
-                                <div class="img">
-                                    <img src="images/team/03.jpg" alt="img">
-                                </div>
-                                <div class="info">
-                                    <h3>Julio Marry</h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- end hover -->
-                        <div class="shr-social-link text-center">
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="shr-team-col animated fadeInUpShort slow delay-1000">
-                        <!-- hover -->
-                        <div class="ih-item square effect6 from_top_and_bottom">
-                            <a href="#">
-                                <div class="img">
-                                    <img src="images/team/04.jpg" alt="img">
-                                </div>
-                                <div class="info">
-                                    <h3>Mark calis</h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- end hover -->
-                        <div class="shr-social-link text-center">
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -429,29 +462,29 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="shr-count-col animated fadeInUpShort slow delay-250">
                         <i class="fa fa-cloud-download" aria-hidden="true"></i>
-                        <h3>DOWNLOADS</h3>
-                        <span class="count">1435</span>
+                        <h3>Лет на рынке</h3>
+                        <span class="count">10</span>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="shr-count-col animated fadeInUpShort slow delay-500">
                         <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                        <h3>LIKES</h3>
-                        <span class="count">5410</span>
+                        <h3>Сайтов находжится в продвижении</h3>
+                        <span class="count">130</span>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="shr-count-col animated fadeInUpShort slow delay-750">
                         <i class="fa fa-shield" aria-hidden="true"></i>
-                        <h3>AWARDS WON</h3>
-                        <span class="count">500</span>
+                        <h3>Клиетов с нами на протяжении 3-х лет <strong>%</strong></h3>
+                        <span class="count">65</span>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="shr-count-col animated fadeInUpShort slow delay-1000">
                         <i class="fa fa-user" aria-hidden="true"></i>
-                        <h3>AUTHOR WORKING</h3>
-                        <span class="count">77</span>
+                        <h3>Довольных клиентов более</h3>
+                        <span class="count">1000</span>
                     </div>
                 </div>
             </div>
@@ -528,18 +561,19 @@
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h2 class="shr-section-title">
-                        SUBSCRIBE TO OUR <span>UPDATES</span>
+                        ПОДПИСАТЬСЯ на <span>Наши новости</span>
                         <span class="shr-round"></span>
                     </h2>
-                    <p class="shr-sub-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <p class="shr-sub-title">Будь в курсе самых свежих новостей в сфере Web-разработки и Seo-продвижения!</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3 text-center">
                     <form class="navbar-form">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Enter your email address">
-                            <button type="submit" class="btn btn-default">Subscribe</button>
+                            <input type="text" class="form-control" placeholder="Введите ваше имя">
+                            <input type="text" class="form-control" placeholder="Введите ваш email">
+                            <button type="submit" class="btn btn-default">Подписаться</button>
                         </div>
                     </form>
                 </div>
@@ -556,10 +590,14 @@
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h2 class="shr-section-title">
-                        Get in <span>touch</span>
+                        Наши<span>Контакты</span>
                         <span class="shr-round"></span>
                     </h2>
-                    <p class="shr-sub-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    <p class="shr-sub-title">Мы находимся: г.Минск.ул.вокзальная 1 </p>
+                    <h2 class="shr-section-title">
+                        Обратная<span>связь</span>
+                        <span class="shr-round"></span>
+                    </h2>
                 </div>
             </div>
             <div class="row animatedParent animateOnce">
