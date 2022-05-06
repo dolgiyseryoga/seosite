@@ -85,8 +85,8 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <h1> Если сайт - то только у нас!<span class="shr-color"> SeoSite.by </span></h1>
                     <p>Весь спектр услуг по созданию сайтов и seo-продвижение</p>
-                    <a class="btn btn-default" href="#" role="button">Зарегистрироваться</a>
-                    <a class="btn btn-default" href="#" role="button">Войти в личный кабинет</a>
+                    <a class="btn btn-default" href="/register.php" role="button">Зарегистрироваться</a>
+                    <a class="btn btn-default" href="/login.php" role="button">Войти в личный кабинет</a>
                     <a class="btn btn-default shr-download-btn" href="#" role="button">Скачать прайс</a>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 shr-dis-none">
