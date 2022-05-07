@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> SeoSite.by </title>
+  
     <!-- animation -->
     <link rel="stylesheet" type="text/css" href="css/animations.css">
     <link rel="stylesheet" type="text/css" href="css/ihover.css">
@@ -63,7 +66,7 @@
             <div class="row animatedParent animateOnce">
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <h1> Добро пожаловать<span class="shr-color">
-
+    
                         </span></h1>
                     <p>Это ваш личный кабинет!</p>
                     <a class="btn btn-default" href="/register.php" role="button">Зарегистрироваться</a>
