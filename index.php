@@ -6,25 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> SeoSite.by </title>
-
-
     <!-- animation -->
     <link rel="stylesheet" type="text/css" href="css/animations.css">
-
     <link rel="stylesheet" type="text/css" href="css/ihover.css">
-
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="responsive.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -91,7 +80,6 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 shr-dis-none">
                     <div class="shr-hero-content-img animated fadeInUpShort slow delay-250">
-                        <!--<img src="images/others/hand.png"> -->
                     </div>
                 </div>
             </div>
@@ -132,7 +120,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 animated fadeInUpShort slow delay-250">
-                    <img src="images/others/girl.jpg">
+                    <img src="images/others/web_image.jpg">
                 </div>
             </div>
         </div>
@@ -222,7 +210,7 @@
                     <div class="shr-table-col animated fadeInLeftShort slow delay-250">
                         <div class="shr-table-heading">
                             <i class="fa fa-briefcase" aria-hidden="true"></i>
-                            <h2>Сайт на готовом шаблоне</h2>
+                            <h2>На готовом шаблоне</h2>
                             <h2> OpenCart, WordPress, Joomla<h2>
                         </div>
                         <h1>от 10 <span>рабочих дней</span></h1>
@@ -242,8 +230,8 @@
                     <div class="shr-table-col animated fadeInUpShort slow">
                         <div class="shr-table-heading">
                             <i class="fa fa-briefcase" aria-hidden="true"></i>
-                            <h2>Сайт с индивидуальным дизайном</h2>
-                            <h2>OpenCart, WordPress, Joomla, Bitrix</h2>
+                            <h2>Индивидуальный дизайн</h2>
+                            <h2>WordPress, Joomla, Bitrix</h2>
                         </div>
                         <h1>от 14 <span>рабочих дней</span></h1>
                         <ul class="list-group">
@@ -638,7 +626,7 @@
                         <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
                         <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                     </div>
-                    <p class="shr-copyright-text">Shared by <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">BootstrapThemes</a>
+                    <p class="shr-copyright-text">Выполнил: <i class="fa fa-love"></i><a href="#">Студент группы BE106 Долгий Сергей</a>
                     </p>
 
                 </div>

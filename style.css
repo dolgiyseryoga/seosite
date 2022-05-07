@@ -581,7 +581,7 @@ a:hover {
 .shr-team-area{
     width: 100%;
     padding: 120px 0px 70px;
-    background: url(images/bgs/04.jpg) center center fixed;
+    background: url(images/bgs/04.png) center center fixed;
     background-size: cover;
     position: relative;
 }
@@ -797,7 +797,7 @@ a:hover {
 .shr-subscribe-area{
     width: 100%;
     padding: 120px 0px 120px;
-    background: url(images/bgs/03.jpg) center center fixed;
+    background: url(images/bgs/02.jpg) center center fixed;
     background-size: cover;
     position: relative;
 }
