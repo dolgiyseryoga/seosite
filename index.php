@@ -557,11 +557,11 @@
             </div>
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3 text-center">
-                    <form class="navbar-form">
+                    <form action="/subscribe/subscribe.php" method="post" class="navbar-form">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Введите ваше имя">
-                            <input type="text" class="form-control" placeholder="Введите ваш email">
-                            <button type="submit" class="btn btn-default">Подписаться</button>
+                            <input type="text" name="user_name" id="user_name" class="form-control" placeholder="Введите ваше имя">
+                            <input type="text" name="email" id="email" class="form-control" placeholder="Введите ваш email">
+                            <button type="submit" name="submit_form" class="btn btn-default">Подписаться</button>
                         </div>
                     </form>
                 </div>
