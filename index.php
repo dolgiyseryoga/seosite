@@ -591,12 +591,13 @@
             <div class="row animatedParent animateOnce">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-10 animated fadeInUpShort slow delay-250">
-                    <from>
-                        <input type="text" class="form-control" placeholder="Full Name">
-                        <input type="email" class="form-control" placeholder="Email">
-                        <textarea class="form-control" rows="6" placeholder="Message"></textarea>
-                        <button type="button" class="btn btn-primary btn-lg btn-block">Sent Message</button>
-                    </from>
+                    <form action="mail/mail.php" method="post">>
+                        <input type="text" name="name" class="form-control" placeholder="Full Name">
+                        <input type="text" name="phone" class="form-control" placeholder="телефон">
+                        <input type="email" name="email" class="form-control" placeholder="Email">
+                        <textarea class="form-control" name="message" rows="6" placeholder="Message"></textarea>
+                        <input type="submit" value="Отправить сообщение" class="btn btn-primary btn-lg btn-block">Отправить сообщение</input>
+                    </form>
                 </div>
                 <div class="col-sm-1"></div>
             </div>
