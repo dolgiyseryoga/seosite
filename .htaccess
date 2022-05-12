@@ -1,0 +1,15 @@
+#RewriteEngine On
+
+# Переадресация прямого вхождения из адресной строки cabinet.php на гл. страницу
+Redirect /cabinet.php /index.php
+
+
+
+# Переадресация всех изображений в поиск гугл-картинки
+#RedirectMatch ^/images/(.+)\.png$ https://yandex.by/images/search?text=$1
+
+#RedirectMatch ^/images/(.+)\.jpg$ https://yandex.by/images/search?text=$1
+
+RewriteCond %{REQUEST_URI} !\.php
+#RewriteCond %{REQUEST_URI} !\.css
+RewriteRule .+ 404.php
