@@ -37,7 +37,8 @@ if (isset($_POST['submit_form'])) {
 
         // Метод execute() возвращает TRUE, если он выполнен успешно, и FALSE, если нет. И вывлдим сообщение
         if ($my_Insert_Statement->execute()) {
-            echo "Подписка произведена успешно";
+
+            header('Location: ../subscribe/sub_ok.php');
         } else {
             echo "Невозможно подписаться, проверьте введенные данные";
         }
@@ -84,20 +85,11 @@ function validate_inputs($data_name, $data_email)
 /*
 //проверяем email-адрес на наличие в базе
 $my_Insert_Statement = $my_Db_Connection->prepare('SELECT COUNT(id) FROM subscribe WHERE email=:email OR name=:name');
-$stmt->execute([
+$stmt->execute()([
     'name' => $u_Name,
     'email' => $email,
 ]);
 if ($stmt->fetch() > 0) {
     echo ' Такой пользователь уже существует.';
 }
-
-
-
-/*
-
-$example = function () {
-    sleep(3);
-    header('Location: ../index.php');
-};
-$example();*/
+*/

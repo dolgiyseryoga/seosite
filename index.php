@@ -145,11 +145,6 @@
                         <h4>Маркетинговый анализ</h4>
                         <p>Мы анализируем целевую аудиторию, вашу нишу, и конкурентов. На основе этого подбирается шаблон и составляются ТЗ для подготовки контента.</p>
                     </div>
-                    <div class="shr-left-features-text animated fadeInLeftShort slow delay-250">
-                        <i class="fa fa-bell-o" aria-hidden="true"></i>
-                        <h4>Подготовка эффективного контента</h4>
-                        <p>Мы разработаем эффективный оффер, проработаем заголовки и тексты, отработаем возражения и представим ваш товар или услугу в выгодном свете.</p>
-                    </div>
                     <div class="shr-left-features-text animated fadeInLeftShort slow delay-500">
                         <i class="fa fa-bullhorn" aria-hidden="true"></i>
                         <h4>Подготовка макета</h4>
@@ -176,11 +171,6 @@
                         <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                         <h4>Программирование</h4>
                         <p>Сложные проекты зачастую требуют нетривиальных программных решений. Фильтры, брошенные корзины, выгрузка в Яндекс.Маркет, почтовые рассылки, работа с внешними приложениями, подключение сторонних библиотек, регистрация через соц.сети, калькуляторы, мультилендинги и много другое.</p>
-                    </div>
-                    <div class="shr-right-features-text animated fadeInRightShort slow delay-500">
-                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                        <h4>Тестирование</h4>
-                        <p>Проверяется скорость, валидность верстки, корректность отображения на разных устройствах, отказоустойчивость при нагрузках и прочие элементы.</p>
                     </div>
                     <div class="shr-right-features-text animated fadeInLeftShort slow delay-500">
                         <i class="fa fa-bullhorn" aria-hidden="true"></i>
@@ -406,12 +396,6 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- end hover
-                        <div class="shr-social-link text-center">
-                            <a href="https://www.facebook.com/juliabevzphoto"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -428,13 +412,6 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- end hover
-                        <div class="shr-social-link text-center">
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
-                        </div> -->
                     </div>
                 </div>
             </div>
