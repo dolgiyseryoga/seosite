@@ -588,25 +588,8 @@
         <div class="container animatedParent animateOnce">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <div class="shr-footer-btn">
-                        <a class="btn btn-default animated fadeInLeftShort slow delay-250" href="#" role="button">DOWNLOAD NOW <i class="fa fa-apple" aria-hidden="true"></i></a>
-                        <a class="btn btn-default animated fadeInRightShort slow delay-250" href="#" role="button"><i class="fa fa-android" aria-hidden="true"></i> DOWNLOAD NOW</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <div class="shr-socila-grup animated fadeInUpShort slow delay-750">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                    </div>
                     <p class="shr-copyright-text">Выполнил: <i class="fa fa-love"></i><a href="#">Студент группы BE106 Долгий Сергей</a>
                     </p>
-
                 </div>
             </div>
         </div>

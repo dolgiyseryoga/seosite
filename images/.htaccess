@@ -1,0 +1,14 @@
+# Включаем переадресацию принудительно, по умолчанию если не включено
+# Переадресация от корня сайта
+
+# RewriteEngine On 
+# RewriteBase /  
+
+# RedirectMatch ^/images/bgs/(.+)\.png$ https://yandex.by/images/search?q=$1
+# RedirectMatch ^/images/bgs/(.+)\.jpg$ http://google.com/search?q=$1
+
+# RedirectMatch ^/images/others/(.+)\.png$ http://google.com/search?q=$1
+# RedirectMatch ^/images/others/(.+)\.jpg$ http://google.com/search?q=$1
+
+# RedirectMatch ^/images/team/(.+)\.png$ http://google.com/search?q=$1
+# RedirectMatch ^/images/team/(.+)\.jpg$ http://google.com/search?q=$1

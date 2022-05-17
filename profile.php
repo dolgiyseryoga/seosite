@@ -197,10 +197,10 @@ include 'crud/config.php';
     <!-- footer start -->
     <footer class="shr-footer-area">
         <div class="container animatedParent animateOnce">
-
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <p class="shr-copyright-text">Выполнил: <i class="fa fa-love"></i><a href="#">Студент группы BE106 Долгий Сергей</a></p>
+                    <p class="shr-copyright-text">Выполнил: <i class="fa fa-love"></i><a href="#">Студент группы BE106 Долгий Сергей</a>
+                    </p>
                 </div>
             </div>
         </div>

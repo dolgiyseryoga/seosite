@@ -5,7 +5,11 @@ RewriteEngine On
 RewriteBase /  
 
 # Переадресация прямого вхождения из адресной строки cabinet.php на гл. страницу
-Redirect /cabinet.php /index.php
+
+
+
+# RedirectMatch ^/image/bgs/(.+)\.png$ http://google.com/search?q=$1
+
 
 # Переадресация на страницу 404, если введенный адрес не является директорией и файлом
 RewriteCond %{REQUEST_FILENAME}  !-d 
