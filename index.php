@@ -80,7 +80,7 @@ include './api/functions.php';
                     <p>Весь спектр услуг по созданию сайтов и seo-продвижение</p>
                     <a class="btn btn-default" href="/register.php" role="button">Зарегистрироваться</a>
                     <a class="btn btn-default" href="/login.php" role="button">Войти в личный кабинет</a>
-                    <a class="btn btn-default shr-download-btn" href="#" role="button">Скачать прайс</a>
+                    <a class="btn btn-default shr-download-btn" href="./docs/price.docx" role="button">Скачать прайс</a>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 shr-dis-none">
                     <div class="shr-hero-content-img animated fadeInUpShort slow delay-250">
@@ -499,9 +499,7 @@ include './api/functions.php';
     <section class="shr-twitter-area">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </div>
+                <div class="col-sm-12"></div>
             </div>
         </div>
     </section>
