@@ -1,3 +1,7 @@
+<?php
+include './api/functions.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -385,6 +389,13 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="shr-team-col animated fadeInUpShort slow delay-250">
                         <!-- hover -->
+                    
+                    </div>
+                </div>
+            <div class="row animatedParent animateOnce">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="shr-team-col animated fadeInUpShort slow delay-250">
+                        <!-- hover -->
                         <div class="ih-item square effect6 from_top_and_bottom">
                             <a href="https://juliabevz.com.au/">
                                 <div class="img">
@@ -463,11 +474,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h2 class="shr-section-title">
-                        APP'S <span>NEWS</span>
+                    <h2 class="shr-section-title">IT<span>Новости</span>
                         <span class="shr-round"></span>
                     </h2>
-                    <p class="shr-sub-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                 </div>
             </div>
             <div class="row animatedParent animateOnce">
@@ -475,29 +484,8 @@
                     <div class="shr-news-col animated fadeInLeftShort slow delay-250">
                         <div class="shr-news-content">
                             <i class="fa fa-arrows-alt shr-awesome" aria-hidden="true"></i>
-                            <h3>Lorem ipsum dolor sit amet</h3>
-                            <div class="shr-news-info clearfix">
-                                <ul>
-                                    <li><i class="fa fa-share-square" aria-hidden="true"></i> 569 Shares</li>
-                                    <li><i class="fa fa-eye" aria-hidden="true"></i> Views</li>
-                                    <li><i class="fa fa-comment" aria-hidden="true"></i> Comments</li>
-                                </ul>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit est is. Lorem ipsum dolor sit amet, consectetur adipiscing elit est is.Lorem ipsum dolor sit amet, consectetur adipiscing elit est is. Lorem ipsum dolor sit amet, consectetur adipiscing elit est is.</p>
-                        </div>
-                    </div>
-                    <div class="shr-news-col animated fadeInRightShort slow delay-250">
-                        <div class="shr-news-content">
-                            <i class="fa fa-life-ring shr-awesome" aria-hidden="true"></i>
-                            <h3>Lorem ipsum dolor sit amet</h3>
-                            <div class="shr-news-info clearfix">
-                                <ul>
-                                    <li><i class="fa fa-share-square" aria-hidden="true"></i> 569 Shares</li>
-                                    <li><i class="fa fa-eye" aria-hidden="true"></i> Views</li>
-                                    <li><i class="fa fa-comment" aria-hidden="true"></i> Comments</li>
-                                </ul>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit est is. Lorem ipsum dolor sit amet, consectetur adipiscing elit est is.Lorem ipsum dolor sit amet, consectetur adipiscing elit est is. Lorem ipsum dolor sit amet, consectetur adipiscing elit est is.</p>
+                            <h3 >Последние новости в сфере компьютерных технологий</h3>
+                            <?php showProducts();?> 
                         </div>
                     </div>
                 </div>
@@ -558,7 +546,10 @@
                         Наши<span>Контакты</span>
                         <span class="shr-round"></span>
                     </h2>
-                    <p class="shr-sub-title">Мы находимся: г.Минск.ул.вокзальная 1 </p>
+                    <p class="shr-sub-title">Мы находимся: г. Минск, ул. Карла Либкнехта 68 </p>
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A55808aa5f80e8b96ca71c186fc9768f22c858aaacb32a6635efbd8d5856effaa&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+                    <br>
+                    <br>
                     <h2 class="shr-section-title">
                         Обратная<span>связь</span>
                         <span class="shr-round"></span>
