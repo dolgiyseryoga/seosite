@@ -7,6 +7,8 @@ include 'crud/modal.php';
 include 'crud/func.php';
 include 'crud/config.php';
 
+include './uslugi/services.php';
+
 
 ?>
 
@@ -18,6 +20,7 @@ include 'crud/config.php';
     <title>Авторизация и регистрация</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.png">
     <!-- animation -->
     <link rel="stylesheet" type="text/css" href="css/animations.css">
     <link rel="stylesheet" type="text/css" href="css/ihover.css">
@@ -193,6 +196,79 @@ include 'crud/config.php';
             </div>
 
     </span>
+
+
+
+
+    <!--услуги-->
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col mt-1">
+                <?= $success ?>
+                <table class="table shadow ">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>№</th>
+                            <th>Пакет</th>
+                            <th>Описание</th>
+                            <th>Цена BYN</th>
+                        </tr>
+                        <?php
+                        $sql = "SELECT * FROM us";
+
+                        foreach ($result as $value) { ?>
+                            <tr>
+                                <td><?= $value['id'] ?></td>
+                                <td><?= $value['package'] ?></td>
+                                <td><?= $value['text'] ?></td>
+                                <td><?= $value['price'] ?></td>
+                                <td>
+
+                                    <a href="?delete=<?= $value['id'] ?>" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteModal<?= $value['id'] ?>"><i class="fa fa-trash"></i></a>
+
+                                </td>
+                            </tr> <?php } ?>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- footer start -->
     <footer class="shr-footer-area">

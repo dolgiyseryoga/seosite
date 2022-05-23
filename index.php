@@ -1,5 +1,6 @@
 <?php
 include './api/functions.php';
+include './uslugi/services.php';
 ?>
 
 <!DOCTYPE html>
@@ -10,6 +11,7 @@ include './api/functions.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> SeoSite.by </title>
+    <link rel="icon" href="images/faviconhome.png">
     <!-- animation -->
     <link rel="stylesheet" type="text/css" href="css/animations.css">
     <link rel="stylesheet" type="text/css" href="css/ihover.css">
@@ -216,7 +218,9 @@ include './api/functions.php';
 
                         </ul>
                         <div class="shr-table-footer">
-                            <a href="#">Заказать</a>
+                            <form action="" method=POST>
+                                <input type=submit name=button value='Сделать заказ'>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -236,7 +240,9 @@ include './api/functions.php';
                             <li class="list-group-item">Обучение администрированию</li>
                         </ul>
                         <div class="shr-table-footer">
-                            <a href="#">Заказать</a>
+                            <form action="" method=POST>
+                                <input type=submit name=button1 value='Закачать'>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -259,7 +265,9 @@ include './api/functions.php';
                             <li class="list-group-item">Программирование 15 часов</li>
                         </ul>
                         <div class="shr-table-footer">
-                            <a href="#">Заказать</a>
+                            <form action="" method=POST>
+                                <input type=submit name=button2 value='Закачать'>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -321,7 +329,9 @@ include './api/functions.php';
                             <li class="list-group-item">анализ коммерческих факторов и т.д.</li>
                         </ul>
                         <div class="shr-table-footer">
-                            <a href="#">Заказать</a>
+                            <form action="" method=POST>
+                                <input type=submit name=button3 value='Закачать'>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -340,7 +350,9 @@ include './api/functions.php';
                             <li class="list-group-item">закупка внешних ссылок, которые влияют на продвижение;</li>
                         </ul>
                         <div class="shr-table-footer">
-                            <a href="#">Заказать</a>
+                            <form action="" method=POST>
+                                <input type=submit name=button4 value='Закачать'>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -364,7 +376,9 @@ include './api/functions.php';
 
                         </ul>
                         <div class="shr-table-footer">
-                            <a href="#">Заказать</a>
+                            <form action="" method=POST>
+                                <input type=submit name=button5 value='Закачать'>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -389,44 +403,44 @@ include './api/functions.php';
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="shr-team-col animated fadeInUpShort slow delay-250">
                         <!-- hover -->
-                    
+
                     </div>
                 </div>
-            <div class="row animatedParent animateOnce">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="shr-team-col animated fadeInUpShort slow delay-250">
-                        <!-- hover -->
-                        <div class="ih-item square effect6 from_top_and_bottom">
-                            <a href="https://juliabevz.com.au/">
-                                <div class="img">
-                                    <img src="images/team/01.jpg" alt="img">
-                                </div>
-                                <div class="info">
-                                    <h3>Julia Bevz<br>juliabevz.com.au</h3>
-                                    <p>Photographer from Melbourne</p>
-                                </div>
-                            </a>
+                <div class="row animatedParent animateOnce">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="shr-team-col animated fadeInUpShort slow delay-250">
+                            <!-- hover -->
+                            <div class="ih-item square effect6 from_top_and_bottom">
+                                <a href="https://juliabevz.com.au/">
+                                    <div class="img">
+                                        <img src="images/team/01.jpg" alt="img">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Julia Bevz<br>juliabevz.com.au</h3>
+                                        <p>Photographer from Melbourne</p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="shr-team-col animated fadeInUpShort slow delay-500">
-                        <!-- hover -->
-                        <div class="ih-item square effect6 from_top_and_bottom">
-                            <a href="https://jujutsubelarus.by/">
-                                <div class="img">
-                                    <img src="/images/team/02.png" alt="img">
-                                </div>
-                                <div class="info">
-                                    <h3>Школа Джиу-джитсу.Беларусь<br>jujutsubelarus.by</h3>
-                                    <p>Школа Джиу-джитсу в г. Новополоцк</p>
-                                </div>
-                            </a>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="shr-team-col animated fadeInUpShort slow delay-500">
+                            <!-- hover -->
+                            <div class="ih-item square effect6 from_top_and_bottom">
+                                <a href="https://jujutsubelarus.by/">
+                                    <div class="img">
+                                        <img src="/images/team/02.png" alt="img">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Школа Джиу-джитсу.Беларусь<br>jujutsubelarus.by</h3>
+                                        <p>Школа Джиу-джитсу в г. Новополоцк</p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <!-- team end -->
 
@@ -474,7 +488,7 @@ include './api/functions.php';
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h2 class="shr-section-title">IT<span>Новости</span>
+                    <h2 class="shr-section-title">IT <span>Новости</span>
                         <span class="shr-round"></span>
                     </h2>
                 </div>
@@ -484,8 +498,8 @@ include './api/functions.php';
                     <div class="shr-news-col animated fadeInLeftShort slow delay-250">
                         <div class="shr-news-content">
                             <i class="fa fa-arrows-alt shr-awesome" aria-hidden="true"></i>
-                            <h3 >Последние новости в сфере компьютерных технологий</h3>
-                            <?php showProducts();?> 
+                            <h3>Последние новости в сфере компьютерных технологий</h3>
+                            <?php showProducts(); ?>
                         </div>
                     </div>
                 </div>
