@@ -197,10 +197,7 @@ include './uslugi/services.php';
 
     </span>
 
-
-
-
-    <!--услуги-->
+    <!-- Услуги -->
     <div class="container">
         <br>
         <div class="row">
@@ -209,65 +206,34 @@ include './uslugi/services.php';
                 <table class="table shadow ">
                     <thead class="thead-dark">
                         <tr>
-                            <th>№</th>
                             <th>Пакет</th>
                             <th>Описание</th>
-                            <th>Цена BYN</th>
+                            <th>BYN</th>
                         </tr>
                         <?php
-                        $sql = "SELECT * FROM us";
+
+                        try {
+                            $pdo = new PDO('mysql:dbname=uslugi; host=localhost', 'root', '');
+                        } catch (PDOException $e) {
+                            die($e->getMessage());
+                        }
+
+                        $sql = $pdo->prepare("SELECT * FROM `us`");
+                        $sql->execute();
+                        $result = $sql->fetchAll();
 
                         foreach ($result as $value) { ?>
                             <tr>
-                                <td><?= $value['id'] ?></td>
                                 <td><?= $value['package'] ?></td>
                                 <td><?= $value['text'] ?></td>
-                                <td><?= $value['price'] ?></td>
-                                <td>
-
-                                    <a href="?delete=<?= $value['id'] ?>" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteModal<?= $value['id'] ?>"><i class="fa fa-trash"></i></a>
-
-                                </td>
-                            </tr> <?php } ?>
+                                <td><?= $value['BYN'] ?></td>
+                            </tr>
+                        <?php } ?>
                     </thead>
                 </table>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <!-- footer start -->

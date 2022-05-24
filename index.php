@@ -12,7 +12,7 @@ include './uslugi/services.php';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> SeoSite.by </title>
     <link rel="icon" href="images/faviconhome.png">
-    <!-- animation -->
+    <!-- анимация -->
     <link rel="stylesheet" type="text/css" href="css/animations.css">
     <link rel="stylesheet" type="text/css" href="css/ihover.css">
     <!-- Bootstrap -->
@@ -31,7 +31,7 @@ include './uslugi/services.php';
             <div class="container">
                 <div class="navbar-header page-scroll">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
+
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -40,10 +40,9 @@ include './uslugi/services.php';
                     </a>
                 </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
+                <!-- навигационные ссылки -->
                 <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
                     <ul class="nav navbar-nav">
-                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                         <li>
                             <a class="page-scroll cmn-t-underline" href="#page-top">Главная</a>
                         </li>
@@ -73,7 +72,7 @@ include './uslugi/services.php';
     <!-- header end -->
 
 
-    <!-- hero start -->
+    <!-- заголовок start -->
     <section class="shr-hero-area" id="hero">
         <div class="container">
             <div class="row animatedParent animateOnce">
@@ -91,11 +90,11 @@ include './uslugi/services.php';
             </div>
         </div>
     </section>
-    <!-- hero end -->
+    <!-- заголовок end -->
 
 
 
-    <!-- welcome start -->
+    <!-- добро пожаловат start -->
     <section class="shr-welcome-area">
         <div class="container">
             <div class="row">
@@ -131,9 +130,9 @@ include './uslugi/services.php';
             </div>
         </div>
     </section>
-    <!-- welcome start -->
+    <!-- добро пожаловат start -->
 
-    <!-- features start -->
+    <!-- разработка и продвижение start -->
     <section class="shr-features-area" id="features">
         <div class="container">
             <div class="row">
@@ -187,9 +186,9 @@ include './uslugi/services.php';
             </div>
         </div>
     </section>
-    <!-- features end -->
+    <!-- разработка и продвижение end -->
 
-    <!-- pricing table start -->
+    <!-- пакеты разработка сайтов start-->
     <section class="shr-pricing-area">
         <div class="container">
             <div class="row">
@@ -274,11 +273,9 @@ include './uslugi/services.php';
             </div>
         </div>
     </section>
-    <!-- pricing table end -->
+    <!-- пакеты разработка сайтов end -->
 
-
-
-    <!-- describe start -->
+    <!-- блок SEO-продвижение start -->
     <section class="shr-describe-area" id="describe">
         <div class="container">
             <div class="row animatedParent animateOnce">
@@ -296,10 +293,9 @@ include './uslugi/services.php';
             </div>
         </div>
     </section>
-    <!-- describe end -->
+    <!-- блок SEO-продвижение end -->
 
-
-    <!-- pricing table start2 -->
+    <!-- пакеты продвижение сайтов start -->
     <section class="shr-pricing-area">
         <div class="container">
             <div class="row">
@@ -385,9 +381,9 @@ include './uslugi/services.php';
             </div>
         </div>
     </section>
-    <!-- pricing table end -->
+    <!-- пакеты продвижение сайтов end -->
 
-    <!-- team start -->
+    <!-- наши клиенты start -->
     <section class="shr-team-area" id="team">
         <div class="container">
             <div class="row">
@@ -442,10 +438,10 @@ include './uslugi/services.php';
                 </div>
             </div>
     </section>
-    <!-- team end -->
+    <!-- наши клиенты end -->
 
 
-    <!-- counter start -->
+    <!-- инфографика start -->
     <section class="shr-counter-area">
         <div class="container">
             <div class="row animatedParent animateOnce">
@@ -480,10 +476,10 @@ include './uslugi/services.php';
             </div>
         </div>
     </section>
-    <!-- counter end -->
+    <!-- инфографика end -->
 
 
-    <!-- news start -->
+    <!-- новости API start -->
     <section class="shr-news-area" id="news">
         <div class="container">
             <div class="row">
@@ -506,10 +502,10 @@ include './uslugi/services.php';
             </div>
         </div>
     </section>
-    <!-- news end -->
+    <!-- новости API end -->
 
 
-    <!-- twitter bar start -->
+    <!-- зеленый разделитель start -->
     <section class="shr-twitter-area">
         <div class="container">
             <div class="row">
@@ -517,10 +513,10 @@ include './uslugi/services.php';
             </div>
         </div>
     </section>
-    <!-- twitter bar end -->
+    <!-- зеленый разделитель end -->
 
 
-    <!-- subscribe start -->
+    <!-- подписка start -->
     <section class="shr-subscribe-area">
         <div class="container">
             <div class="row">
@@ -545,11 +541,11 @@ include './uslugi/services.php';
             </div>
         </div>
     </section>
-    <!-- subscribe end -->
+    <!-- подписка end -->
 
 
 
-    <!-- contact start -->
+    <!-- наши контакты start -->
     <section class="shr-contact-area" id="Contact">
         <div class="container">
             <div class="row">
@@ -583,7 +579,7 @@ include './uslugi/services.php';
             </div>
         </div>
     </section>
-    <!-- contact end -->
+    <!-- наши контакты end -->
 
 
     <!-- footer start -->
@@ -601,18 +597,16 @@ include './uslugi/services.php';
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery (необходим для плагинов Bootstrap) -->
     <script src="js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/css3-animate-it.js"></script><!-- css3-animate-it -->
-    <script src="js/jquery.easing.min.js"></script> <!-- menu smooth scroll -->
-    <script type="text/javascript" src="js/scroll_script.js"></script> <!-- to top smooth scroll -->
+    <script type="text/javascript" src="js/css3-animate-it.js"></script><!-- css3-анимация -->
+    <script src="js/jquery.easing.min.js"></script> <!-- плавная прокрутка меню -->
+    <script type="text/javascript" src="js/scroll_script.js"></script> <!-- гладкая прокрутка вверх  -->
 
     <!-- menu -->
     <script type="text/javascript">
-        //jQuery to collapse the navbar on scroll
+        //Query, чтобы свернуть панель навигации при прокрутке
         $(window).scroll(function() {
             if ($(".navbar").offset().top > 50) {
                 $(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -621,7 +615,7 @@ include './uslugi/services.php';
             }
         });
 
-        //jQuery for page scrolling feature - requires jQuery Easing plugin
+        //jQuery для функции прокрутки страниц
         $(function() {
             $('a.page-scroll').bind('click', function(event) {
                 var $anchor = $(this);
@@ -636,7 +630,7 @@ include './uslugi/services.php';
 
 
 
-    <!-- counter -->
+    <!-- прокрутка -->
     <script type="text/javascript">
         $(document).ready(function($) {
 
@@ -671,7 +665,7 @@ include './uslugi/services.php';
             }).triggerHandler('scroll');
         });
     </script>
-    <!-- /counter -->
+    <!-- /прокрутка -->
 
     <a href="#top" id="toTop"><i class="fa fa-arrow-circle-up"></i></a>
 
