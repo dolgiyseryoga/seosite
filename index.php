@@ -553,8 +553,10 @@ include './uslugi/services.php';
                     <h2 class="shr-section-title">
                         Наши<span>Контакты</span>
                         <span class="shr-round"></span>
-                    </h2>
-                    <p class="shr-sub-title">Мы находимся: г. Минск, ул. Карла Либкнехта 68 </p>
+                    </h2>]
+                    <p class="shr-sub-title">Мы находимся: г. Минск, ул. Карла Либкнехта 68</p>
+                    <h3><a style="color: #A0CE4E" class="shr-sub-title" href="tel:+375336143550">Позвоните нам!</a></h3>
+                    <br>
                     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A55808aa5f80e8b96ca71c186fc9768f22c858aaacb32a6635efbd8d5856effaa&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
                     <br>
                     <br>
