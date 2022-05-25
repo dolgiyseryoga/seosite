@@ -209,9 +209,9 @@ include './uslugi/services.php';
                             <th>Пакет</th>
                             <th>Описание</th>
                             <th>BYN</th>
+
                         </tr>
                         <?php
-
                         try {
                             $pdo = new PDO('mysql:dbname=uslugi; host=localhost', 'root', '');
                         } catch (PDOException $e) {
@@ -227,6 +227,7 @@ include './uslugi/services.php';
                                 <td><?= $value['package'] ?></td>
                                 <td><?= $value['text'] ?></td>
                                 <td><?= $value['BYN'] ?></td>
+
                             </tr>
                         <?php } ?>
                     </thead>
@@ -236,8 +237,22 @@ include './uslugi/services.php';
     </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- footer start -->
-    <footer class="shr-footer-area">
+    <footer class=" shr-footer-area">
         <div class="container animatedParent animateOnce">
             <div class="row">
                 <div class="col-sm-12 text-center">

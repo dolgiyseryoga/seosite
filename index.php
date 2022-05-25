@@ -31,7 +31,6 @@ include './uslugi/services.php';
             <div class="container">
                 <div class="navbar-header page-scroll">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -60,6 +59,9 @@ include './uslugi/services.php';
                         </li>
                         <li>
                             <a class="page-scroll cmn-t-underline" href="#Contact">Контакты</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll cmn-t-underline" href="#">Отзывы клиентов</a>
                         </li>
                     </ul>
                 </div>

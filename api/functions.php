@@ -33,8 +33,8 @@ function showProducts()
             <div class="name">
                 <h4 style="color: #A0CE4E">' . $name['name_ru'] . '</h4>
                 <h4>' . $name['start_date'] . '</h4>
-                <h4>' . $name['html_ru'] . '</h4> 
-                <h4><a href="'.$name['link'].'" >' .'Читать подробнее...'. '</a></h4>
+                <h4>' . /*$name['html_ru'] . */ '</h4> 
+                <h4><a href="' . $name['link'] . '" >' . 'Читать подробнее...' . '</a></h4>
             </div>';
     }
     echo ' <div class="name_list">' . $html . '</div>';
