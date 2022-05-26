@@ -8,8 +8,6 @@ include 'crud/func.php';
 include 'crud/config.php';
 
 include './uslugi/services.php';
-
-
 ?>
 
 <!doctype html>
@@ -21,7 +19,7 @@ include './uslugi/services.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/favicon.png">
-    <!-- animation -->
+    <!-- анимация -->
     <link rel="stylesheet" type="text/css" href="css/animations.css">
     <link rel="stylesheet" type="text/css" href="css/ihover.css">
     <!-- Bootstrap -->
@@ -41,7 +39,7 @@ include './uslugi/services.php';
 
     <!-- header start -->
     <header class="shr-header">
-        <!-- Navigation -->
+        <!-- Навигация -->
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header page-scroll">
@@ -51,20 +49,13 @@ include './uslugi/services.php';
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <!-- <a class="navbar-brand page-scroll" href="index.html"><img class="shr-logo" src="images/logo/logo.bmp" alt="">
-                    </a> -->
                 </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
+                <!-- навигационные ссылки -->
                 <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
                     <ul class="nav navbar-nav">
-                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li>
-                            <a class="page-scroll cmn-t-underline" href="index.php">На главную</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll cmn-t-underline" href="#features">Личный кабинет</a>
-                        </li>
+                        <li><a class="page-scroll cmn-t-underline" href="index.php">На главную</a></li>
+                        <li><a class="page-scroll cmn-t-underline" href="#features">Личный кабинет</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -236,20 +227,43 @@ include './uslugi/services.php';
         </div>
     </div>
 
+    <!-- Разделитель -->
+    <section class="shr-twitter-area">
+        <div class="container">
+            <div class="row"></div>
+        </div>
+    </section>
 
+    <!-- Оставить отзыв -->
+    <span class="shr-features-area" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="shr-section-title">
+                        <br></br>
+                        <span>Оставте отзыв о нас!</span>
+                        <span class="shr-round"></span>
+                    </h2>
+                </div>
+            </div>
+    </span>
 
+    <!--форма отправки отзывов-->
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <form action="reviews/store.php" method="post">
+                    <input class="col-sm-12" type="text" name="name" placeholder="Ваше имя"> <br><br>
+                    <input class="col-sm-12" type="text" name="title" placeholder="Тема"> <br><br>
+                    <textarea class="col-sm-12" name="content" placeholder="Текст отзыва"></textarea><br><br>
+                    <br>
+                    <button class="btn btn-success mb-1" type="submit">Отправить отзыв</button>
 
-
-
-
-
-
-
-
-
-
-
-
+                </form>
+            </div>
+        </div>
+    </div>
 
     <!-- footer start -->
     <footer class=" shr-footer-area">
