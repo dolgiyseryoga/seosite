@@ -61,7 +61,7 @@ include './uslugi/services.php';
                             <a class="page-scroll cmn-t-underline" href="#Contact">Контакты</a>
                         </li>
                         <li>
-                            <a class="page-scroll cmn-t-underline" href="#">Отзывы клиентов</a>
+                            <a class="page-scroll cmn-t-underline" href="reviews/reviewpage.php">Отзывы клиентов</a>
                         </li>
                     </ul>
                 </div>

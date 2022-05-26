@@ -1,6 +1,6 @@
 <?php foreach ($posts as $post) : ?>
-    <h2><?= $post['name']; ?></h2>
-    <h2><?= $post['title']; ?></h2>
-    <h2><?= $post['content']; ?></h2>
-
+    <div class="container1">
+        <p><span style="color:#84AE39"><?= $post['name']; ?></span><strong><?= $post['title']; ?></strong></p>
+        <p style="color:black"><?= $post['content']; ?></p>
+    </div>
 <?php endforeach; ?>
