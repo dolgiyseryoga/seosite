@@ -4,10 +4,6 @@
 RewriteEngine On 
 RewriteBase /  
 
-# Переадресация прямого вхождения из адресной строки cabinet.php на гл. страницу
-
-
-
 # RedirectMatch ^/image/bgs/(.+)\.png$ http://google.com/search?q=$1
 
 

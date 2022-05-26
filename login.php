@@ -4,7 +4,6 @@ session_start();
 if ($_SESSION['user']) {
     header('Location: profile.php');
 }
-
 ?>
 
 <!doctype html>
@@ -38,5 +37,4 @@ if ($_SESSION['user']) {
     </form>
 
 </body>
-
 </html>

@@ -6,7 +6,6 @@ if (!$_SESSION['user']) {
 include 'crud/modal.php';
 include 'crud/func.php';
 include 'crud/config.php';
-
 include './uslugi/services.php';
 ?>
 
@@ -15,7 +14,7 @@ include './uslugi/services.php';
 
 <head>
     <meta charset="UTF-8">
-    <title>Авторизация и регистрация</title>
+    <title>Личный кабинет</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/favicon.png">
@@ -27,10 +26,6 @@ include './uslugi/services.php';
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="responsive.css">
-
-    <!-- 
-    -->
-
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
 
 </head>
@@ -67,7 +62,7 @@ include './uslugi/services.php';
     <!-- header end -->
 
 
-    <!-- hero start -->
+   <!-- заголовок start -->
     <section class="shr-hero-area" id="hero">
         <div class="container">
             <div class="row animatedParent animateOnce">
@@ -78,16 +73,14 @@ include './uslugi/services.php';
                     <a class="btn btn-default shr-download-btn" href="vendor/logout.php" role="button">Выход</a>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 shr-dis-none">
-                    <!-- <div class="shr-hero-content-img animated fadeInUpShort slow delay-250">-->
-                    <!--<img src="images/others/hand.png"> -->
                 </div>
             </div>
         </div>
         </div>
     </section>
-    <!-- hero end -->
+    <!-- заголовок end -->
 
-    <!-- features start -->
+    <!-- тикеты start -->
 
     <span class="shr-features-area" id="features">
         <div class="container">
@@ -100,7 +93,6 @@ include './uslugi/services.php';
                     </h2>
                 </div>
             </div>
-
     </span>
 
     <div class="container">
@@ -170,8 +162,7 @@ include './uslugi/services.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-
-
+    <!-- Услуги -->
     <span class="shr-features-area" id="features">
         <div class="container">
             <div class="row">
@@ -183,11 +174,9 @@ include './uslugi/services.php';
                     </h2>
                 </div>
             </div>
-
     </span>
 
-    <!-- Услуги -->
-    <div class="container">
+        <div class="container">
         <br>
         <div class="row">
             <div class="col mt-1">
@@ -198,7 +187,6 @@ include './uslugi/services.php';
                             <th>Пакет</th>
                             <th>Описание</th>
                             <th>BYN</th>
-
                         </tr>
                         <?php
                         try {
@@ -216,7 +204,6 @@ include './uslugi/services.php';
                                 <td><?= $value['package'] ?></td>
                                 <td><?= $value['text'] ?></td>
                                 <td><?= $value['BYN'] ?></td>
-
                             </tr>
                         <?php } ?>
                     </thead>
@@ -256,8 +243,8 @@ include './uslugi/services.php';
                     <input class="col-sm-12" type="text" name="title" placeholder="Тема"> <br><br>
                     <textarea class="col-sm-12" name="content" placeholder="Текст отзыва"></textarea><br><br>
                     <br>
+                    <h2></h2>
                     <button class="btn btn-success mb-1" type="submit">Отправить отзыв</button>
-
                 </form>
             </div>
         </div>
@@ -276,18 +263,16 @@ include './uslugi/services.php';
     </footer>
     <!-- footer end -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery (необходим для плагинов Bootstrap) -->
     <script src="js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/css3-animate-it.js"></script><!-- css3-animate-it -->
-    <script src="js/jquery.easing.min.js"></script> <!-- menu smooth scroll -->
-    <script type="text/javascript" src="js/scroll_script.js"></script> <!-- to top smooth scroll -->
+    <script type="text/javascript" src="js/css3-animate-it.js"></script><!-- css3-анимация -->
+    <script src="js/jquery.easing.min.js"></script> <!-- плавная прокрутка меню -->
+    <script type="text/javascript" src="js/scroll_script.js"></script> <!-- гладкая прокрутка вверх  -->
 
     <!-- menu -->
     <script type="text/javascript">
-        //jQuery to collapse the navbar on scroll
+        //Query, чтобы свернуть панель навигации при прокрутке
         $(window).scroll(function() {
             if ($(".navbar").offset().top > 50) {
                 $(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -296,7 +281,7 @@ include './uslugi/services.php';
             }
         });
 
-        //jQuery for page scrolling feature - requires jQuery Easing plugin
+        //jQuery для функции прокрутки страниц
         $(function() {
             $('a.page-scroll').bind('click', function(event) {
                 var $anchor = $(this);
@@ -309,7 +294,7 @@ include './uslugi/services.php';
     </script>
     <!-- /menu -->
 
-    <!-- counter -->
+   <!-- прокрутка -->
     <script type="text/javascript">
         $(document).ready(function($) {
 
@@ -344,8 +329,7 @@ include './uslugi/services.php';
             }).triggerHandler('scroll');
         });
     </script>
-    <!-- /counter -->
+   <!-- /прокрутка -->
     <a href="#top" id="toTop"><i class="fa fa-arrow-circle-up"></i></a>
 </body>
-
 </html>

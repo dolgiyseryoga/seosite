@@ -242,7 +242,7 @@ include './uslugi/services.php';
                         </ul>
                         <div class="shr-table-footer">
                             <form action="" method=POST>
-                                <input type=submit name=button1 value='Закачать'>
+                                <input type=submit name=button1 value='Сделать заказ'>
                             </form>
                         </div>
                     </div>
@@ -267,7 +267,7 @@ include './uslugi/services.php';
                         </ul>
                         <div class="shr-table-footer">
                             <form action="" method=POST>
-                                <input type=submit name=button2 value='Закачать'>
+                                <input type=submit name=button2 value='Сделать заказ'>
                             </form>
                         </div>
                     </div>
@@ -328,7 +328,7 @@ include './uslugi/services.php';
                         </ul>
                         <div class="shr-table-footer">
                             <form action="" method=POST>
-                                <input type=submit name=button3 value='Закачать'>
+                                <input type=submit name=button3 value='Сделать заказ'>
                             </form>
                         </div>
                     </div>
@@ -349,7 +349,7 @@ include './uslugi/services.php';
                         </ul>
                         <div class="shr-table-footer">
                             <form action="" method=POST>
-                                <input type=submit name=button4 value='Закачать'>
+                                <input type=submit name=button4 value='Сделать заказ'>
                             </form>
                         </div>
                     </div>
@@ -375,7 +375,7 @@ include './uslugi/services.php';
                         </ul>
                         <div class="shr-table-footer">
                             <form action="" method=POST>
-                                <input type=submit name=button5 value='Закачать'>
+                                <input type=submit name=button5 value='Сделать заказ'>
                             </form>
                         </div>
                     </div>
@@ -536,6 +536,7 @@ include './uslugi/services.php';
                         <div class="form-group">
                             <input type="text" name="user_name" id="user_name" class="form-control" placeholder="Введите ваше имя">
                             <input type="text" name="email" id="email" class="form-control" placeholder="Введите ваш email">
+                            <h2></h2>
                             <button type="submit" name="submit_form" class="btn btn-default">Подписаться</button>
                         </div>
                     </form>
@@ -553,17 +554,17 @@ include './uslugi/services.php';
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h2 class="shr-section-title">
-                        Наши<span>Контакты</span>
+                        Наши<span> Контакты</span>
                         <span class="shr-round"></span>
                     </h2>]
-                    <p class="shr-sub-title">Мы находимся: г. Минск, ул. Карла Либкнехта 68</p>
+                    <p class="shr-sub-title">Мы находимся: г. Минск, ул. Карла Либкнехта, 68</p>
                     <h3><a style="color: #A0CE4E" class="shr-sub-title" href="tel:+375336143550">Позвоните нам!</a></h3>
                     <br>
                     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A55808aa5f80e8b96ca71c186fc9768f22c858aaacb32a6635efbd8d5856effaa&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
                     <br>
                     <br>
                     <h2 class="shr-section-title">
-                        Обратная<span>связь</span>
+                        Обратная<span> связь</span>
                         <span class="shr-round"></span>
                     </h2>
                 </div>
@@ -572,10 +573,10 @@ include './uslugi/services.php';
                 <div class="col-sm-1"></div>
                 <div class="col-sm-10 animated fadeInUpShort slow delay-250">
                     <form action="mail/mail.php" method="post">>
-                        <input type="text" name="name" class="form-control" placeholder="Full Name">
-                        <input type="text" name="phone" class="form-control" placeholder="телефон">
+                        <input type="text" name="name" class="form-control" placeholder="Ваше имя">
+                        <input type="text" name="phone" class="form-control" placeholder="Телефон">
                         <input type="email" name="email" class="form-control" placeholder="Email">
-                        <textarea class="form-control" name="message" rows="6" placeholder="Message"></textarea>
+                        <textarea class="form-control" name="message" rows="6" placeholder="Тест письма"></textarea>
                         <input type="submit" value="Отправить сообщение" class="btn btn-primary btn-lg btn-block">Отправить сообщение</input>
                     </form>
                 </div>
