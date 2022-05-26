@@ -14,6 +14,11 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="responsive.css">
+    <style>
+        body {
+            background-color: #000000;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,13 +26,14 @@
     <section class="shr-hero-area" id="hero">
         <div class="container">
             <div class="row animatedParent animateOnce">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <h1> Такой страницы не существует!<h1>
-                            </span class="shr-color">Будь внимательнее, дружище!</span>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-sm-12 text-center">
+                    <h1> Такой страницы <span style="color:#84AE39">не существует!</span>
+                        <h1>
+                            <span>Будь внимательнее, дружище!</span>
                             <br></br>
-                            <h2></span class="shr-color"><a href="/index.php">Вернёмся на главную?</a></span></h2>
+                            <h2> <button style="background-color:#0000;" class="btn btn-success mb-1" type="submit"><a href="/index.php"><span style="color:#84AE39;">Вернёмся на главную?</span><a></button></h2>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 shr-dis-none">
+                <div class=" col-lg-6 col-md-6 col-sm-6 shr-dis-none">
                     <div class="shr-hero-content-img animated fadeInUpShort slow delay-250">
                     </div>
                 </div>

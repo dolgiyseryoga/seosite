@@ -35,7 +35,7 @@ if (isset($_POST['submit_form'])) {
         $my_Insert_Statement->bindParam("email", $email);
 
 
-        // Метод execute() возвращает TRUE, если он выполнен успешно, и FALSE, если нет. И вывлдим сообщение
+        // Метод execute() возвращает TRUE, если он выполнен успешно, и FALSE, если нет. И выводим сообщение
         if ($my_Insert_Statement->execute()) {
 
             header('Location: ../subscribe/sub_ok.php');
@@ -82,14 +82,3 @@ function validate_inputs($data_name, $data_email)
         $err = $err . $error_email;
     return $err;
 }
-/*
-//проверяем email-адрес на наличие в базе
-$my_Insert_Statement = $my_Db_Connection->prepare('SELECT COUNT(id) FROM subscribe WHERE email=:email OR name=:name');
-$stmt->execute()([
-    'name' => $u_Name,
-    'email' => $email,
-]);
-if ($stmt->fetch() > 0) {
-    echo ' Такой пользователь уже существует.';
-}
-*/

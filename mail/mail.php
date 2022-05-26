@@ -9,6 +9,6 @@ $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n"; // указыва
 $send = mail($to, $tema, $message, $headers); //отправляет получателю на емайл значения переменных
 
 if ($send) //проверяем, отправилось ли сообщение
-    echo "Сообщение отправлено успешно! Перейти на <a href='http://seosite/'>http://seosite/</a>!";
+    header('Location: ../subscribe/sub_ok.php');
 else
     echo "Ошибка, сообщение не отправлено! Возможно, проблемы на сервере";

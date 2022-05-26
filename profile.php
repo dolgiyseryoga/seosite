@@ -72,12 +72,10 @@ include './uslugi/services.php';
         <div class="container">
             <div class="row animatedParent animateOnce">
                 <div class="col-lg-6 col-md-6 col-sm-6">
-                    <h1 style="margin: 10px 0;"><?= $_SESSION['user']['full_name'] ?>, добро пожаловать в личный кабинет! <span class="shr-color">
-
+                    <h1 style="margin: 10px 0;"><?= $_SESSION['user']['full_name'] ?>, <span class="shr-color">добро пожаловать в личный кабинет!
                         </span></h1>
-                    <p><a href="#"> </br><?= $_SESSION['user']['email'] ?></a></p>
+                    <p><a style="color:#ffffff" href="#"> </br><?= $_SESSION['user']['email'] ?></a></p>
                     <a class="btn btn-default shr-download-btn" href="vendor/logout.php" role="button">Выход</a>
-
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 shr-dis-none">
                     <!-- <div class="shr-hero-content-img animated fadeInUpShort slow delay-250">-->
