@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Май 16 2022 г., 15:34
+-- Время создания: Май 27 2022 г., 18:20
 -- Версия сервера: 5.7.33
 -- Версия PHP: 7.4.27
 
@@ -35,15 +35,6 @@ CREATE TABLE `crud` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Дамп данных таблицы `crud`
---
-
-INSERT INTO `crud` (`id`, `name`, `last_name`, `pos`) VALUES
-(8, 'Андрейuy7', 'Андреевич', 'хочу увелич'),
-(9, 'еноен', 'о', 'еноенон'),
-(11, 'jujutsubelarusg', 'rg4g4', 'g4g4');
-
---
 -- Индексы сохранённых таблиц
 --
 
@@ -61,7 +52,7 @@ ALTER TABLE `crud`
 -- AUTO_INCREMENT для таблицы `crud`
 --
 ALTER TABLE `crud`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

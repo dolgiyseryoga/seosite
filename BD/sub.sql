@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Май 16 2022 г., 15:34
+-- Время создания: Май 27 2022 г., 18:20
 -- Версия сервера: 5.7.33
 -- Версия PHP: 7.4.27
 
@@ -38,7 +38,8 @@ CREATE TABLE `subscribe` (
 --
 
 INSERT INTO `subscribe` (`id`, `name`, `email`) VALUES
-(1, 'admin', 'dolgiy.se@yandex.by');
+(1, 'admin', 'dolgiy.se@yandex.by'),
+(3, 'сергей', 'serg@mail.ru');
 
 --
 -- Индексы сохранённых таблиц
@@ -58,7 +59,7 @@ ALTER TABLE `subscribe`
 -- AUTO_INCREMENT для таблицы `subscribe`
 --
 ALTER TABLE `subscribe`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
