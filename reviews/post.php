@@ -1,7 +1,7 @@
 <?php
 function getPosts()
 {
-    $pdo = new PDO('mysql:dbname=reviews; host=localhost', 'root', '');
+    $pdo = new PDO('mysql:dbname=baza; host=localhost', 'root', '');
     $statement = $pdo->prepare("SELECT* FROM posts");
     $statement->execute();
     $posts = $statement->fetchAll(PDO::FETCH_ASSOC);
@@ -11,7 +11,7 @@ function getPosts()
 
 function addPost($name, $title, $content)
 {
-    $pdo = new PDO('mysql:dbname=reviews; host=localhost', 'root', '');
+    $pdo = new PDO('mysql:dbname=baza; host=localhost', 'root', '');
     $sql = "INSERT INTO posts (name,title, content) VALUES (:name, :title, :content)";
     $statement = $pdo->prepare($sql);
     $statement->bindParam(":name", $name);

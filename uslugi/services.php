@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$link = mysqli_connect('localhost', 'root', '', 'uslugi');
+$link = mysqli_connect('localhost', 'root', '', 'baza');
 
 if (!$link) {
     die('Error connect to DataBase');

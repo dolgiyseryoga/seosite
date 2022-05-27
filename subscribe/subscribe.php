@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$database = "sub";
+$database = "baza";
 $username = "root";
 $password = "";
 $sql = "mysql:host=$servername;dbname=$database;";
@@ -27,7 +27,7 @@ if (isset($_POST['submit_form'])) {
 
         // Создаем переменную, которая вызывает методобъекта базы данных prepare()
         // Запрос SQL вводится как параметр, заполнители пишутся как :заполнитель_имя
-        $my_Insert_Statement = $my_Db_Connection->prepare("INSERT INTO subscribe (name,  email) VALUES (:u_name,  :email)");
+        $my_Insert_Statement = $my_Db_Connection->prepare("INSERT INTO subscribe (name,  email) VALUES (:u_name,  :email)");                
 
         // Указываем скрипту, какая переменная ссылается на каждый заполнитель, чтобы использовать метод bindParam()
         // Первый параметр - это заполнитель в операторе выше, второй - переменная, на которую он должен ссылаться
